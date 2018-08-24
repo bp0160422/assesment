@@ -1,0 +1,1050 @@
+
+/*Body */ 
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+background-color: #e1e1e1;
+}
+
+/*Top navigation bar */ 
+nav {
+      position: fixed;
+      top: 0px;
+      width: 100%;
+     
+}
+
+/*Logo name "Universal combat" in the navigation bar*/ 
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 25px 6px;
+      margin-left: 15%;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 3px;
+}
+
+
+/*Control over links in the top navigation bar*/
+nav ul {
+      line-height: 85px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+ 
+ 
+/*Background color for top navigation bar when scrolled down*/ 
+nav.black ul {    
+      background: #000;
+}
+
+/*Control over links in the top navigation bar*/ 
+nav ul li { 
+      display: inline-block;
+      padding: 16px 40px;;
+}
+ 
+/*Color and font-size of the links in the top navigation bar*/ 
+nav ul li a {
+      color: #fff;
+      font-size: 16px;
+}
+
+/*Control over links in the top navigation bar*/ 
+.menu-icon {
+      display: none;
+}
+ 
+
+/* Samll logo of the club at the top*/
+.logoo{
+position: absolute;
+width: 122px;
+height: 100%;
+top: 0%;
+left: 5%;
+}
+
+/*Main video in the home page*/
+#myVideo {
+ position: absolute;
+    right: 0%;
+    top: -58px;
+    left: 0;
+    bottom: 0px;
+    width: 100%; 
+    height: 111%;
+}
+
+/*"About us" heading*/
+.aboutus{
+position: absolute;
+top: 115%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 50px;
+
+}
+
+
+/*Big logo under the about heading*/
+.logooo{
+position: absolute;
+width: 22%;
+height: 36%;
+top: 128%;
+left: 6%;
+}
+
+
+.iop{
+font-size: 17px;
+letter-spacing: 1px;
+
+}
+
+
+.aboutuss{
+position: absolute;
+top: 120%;
+left: 33%;
+right: 10%;
+font-size: 20px;
+ font-family: Arial;
+
+
+}
+
+/*Wrestling area heading*/
+.wrestlinggg{
+position: absolute;
+top: 178%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 50px;
+
+}
+
+
+/*Picture of wrestling facilities*/
+.wrestlingg{
+position: absolute; 
+width: 40%;
+height: 40%;
+top: 191%;
+left: 10%;
+border-radius: 5px;
+}
+
+
+
+/*Boxing area heading*/
+.boxing{
+position: absolute; 
+width: 40%;
+height: 40%;
+top: 191%;
+left: 55%;
+border-radius: 5px;
+}
+
+/*Picture of Boxing facilities*/
+.boxingarea{
+position: absolute;
+top: 178%;
+bottom: 200px;
+left: 55%;
+color: black;
+font-size: 50px;
+
+}
+
+
+/*MMA area heading*/
+.mmaarea{
+position: absolute;
+top: 240%;
+bottom: 200px;
+left: 40%;
+color: black;
+font-size: 50px;
+
+}
+
+/*Picture of MMA facilities*/
+.mmaa{
+position: absolute; 
+width: 40%;
+height: 40%;
+top: 252%;
+left: 30%;
+border-radius: 5px;
+}
+
+/*Brazilian Jiu Jitsu area heading*/
+.brazilianarea{
+position: absolute;
+top: 240%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 50px;
+
+}
+
+/*Picture of Brazilian Jiu Jitsu facilities*/
+.brazilian{
+position: absolute; 
+width: 40%;
+height: 40%;
+top: 252%;
+left: 10%;
+border-radius: 5px;
+}
+
+
+/*Prices heading*/
+.prices{
+position: absolute;
+top: 310%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 50px;
+
+}
+
+/*Table of club prices*/
+.pricess{
+position: absolute;
+font-size: 20px;
+    top: 325%;
+    left: 10%;
+    width: 70%;
+    height: 20%;
+ font-family: Arial;
+}
+
+/*Joining fees paragraphs*/
+.joining{
+position: absolute;
+font-size: 20px;
+    top: 350%;
+    left: 10%;
+    width: 70%;
+    height: 20%;
+ font-family: Arial;
+ 
+}
+
+/*Info about Insurance  paragramps */
+.insurance{
+position: absolute;
+font-size: 20px;
+    top: 357%;
+    left: 10%;
+    width: 70%;
+    height: 20%;
+ font-family: Arial;
+ 
+}
+
+
+/*Promotions heading*/
+.promotions{
+position: absolute;
+top: 375%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 50px;
+
+}
+
+
+
+/*"20% STUDENT DISCOUNT" paragraphs*/
+.student{
+position: absolute;
+top: 387%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 20px;
+ font-family: Arial;
+}
+
+/*"FREE 2 TRIAL SESSIONS" paragraps*/
+.free{
+position: absolute;
+top: 392%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 20px;
+ font-family: Arial;
+}
+
+/*Location heading*/
+.location{
+position: absolute;
+top: 409%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 50px;
+}
+
+/*Google Maps location*/
+.locationn{
+position: absolute;
+top: 500%;
+left: 0%;
+top: 424%;
+
+}
+/*The address*/
+.locationnn{
+position: absolute;
+top: 500%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 20px;
+ font-family: Arial;
+}
+
+/*Contact details table*/
+.contact{
+position: absolute;
+top: 530%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 20px;
+ font-family: Arial;
+ 
+}
+
+/*Contact heading*/
+.contactt{
+position: absolute;
+top: 515%;
+bottom: 200px;
+left: 10%;
+color: black;
+font-size: 50px;
+
+}
+
+
+
+/*Bottom grey bar*/
+.bottombar{
+overflow: hidden;
+  background-color: #aaaaaa;
+  position: absolute;
+  top: 550%;
+  width: 1425px;
+  left: 0%;
+  height: 150px;
+ border-radius: 0px; 
+}
+
+
+/*Subscribe heading in the bottom bar*/
+.followus{
+position: absolute;
+top: 553%;
+bottom: 200px;
+left: 16%;
+color: black;
+font-size: 20px;
+
+}
+
+
+/*Contact details in the bottom bar*/
+.bottomtable{
+position: absolute;
+top: 557%;
+bottom: 200px;
+left: 75%;
+color: black;
+font-size: 20px;
+ font-family: Arial;
+}
+
+
+
+
+/*Control over of social media buttons*/
+.fa {
+  padding: 7px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 75px 2px;
+  position: relative; 
+  left: 16%;
+border-radius: 50%;
+
+}
+
+
+/*Opacity of social media buttons when clicking*/
+.fa:hover {
+    opacity: 0.7;
+
+}
+
+/*Facebook logo color changer*/
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/*Instagram logo color changer*/
+.fa-instagram {
+  background: #125688;
+  color: white;
+
+}
+
+/*Must be included "Academic Project Website paragraph" in the bottom bar */
+.academicwebsite{
+position: absolute;
+top: 552%;
+left:25%;
+font-size: 15px;
+color: black;
+font-family: Arial;
+}
+
+
+
+
+/*Top Black bar*/
+.topnavbarr{
+overflow: hidden;
+  background-color: black;
+  position: absolute;
+  top: 0%;
+  width: 1425px;
+  left: 0%;
+  right: 0%;
+  height: 1040px;
+ border-radius: 0px; 
+}
+
+/*Boxing heading at the top*/
+.wrestling{
+position: absolute;
+font-size: 55px;
+top: 20%;
+left: 50%;
+font-family: Arial;
+color: white;
+}
+
+/* About Boxing paragrapht at the top */
+.aboutboxing{ 
+position: absolute;
+top: 33%;
+bottom: 200px;
+left: 50%;
+right: 8%;
+color: black;
+font-size: 20px;
+ font-family: Arial;
+color: white;
+}
+
+
+/*Boxing picture at the top*/
+.boxing1{
+position: absolute;
+width: 43%;
+height: 45%;
+top: 36%;
+left: 5%;
+right: 0%;
+}
+
+/*Boxing at our club heading*/
+.boxingattheclub{
+position: absolute;
+font-size: 30px;
+top: 62%;
+left: 50%;
+font-family: Arial;
+color: white;
+}
+
+/*Boxing at our club  paragraph*/
+.boxingattheclub2{
+position: absolute;
+font-size: 20px;
+top: 70%;
+left: 50%;
+right: 50px;
+font-family: Arial;
+color: white;
+}
+
+/*What need to bring? heading*/
+.needtobring{
+position: absolute;
+font-size: 30px;
+top: 94%;
+left: 50%;
+font-family: Arial;
+color: white;
+}
+
+/*What need to bring? paragraphs*/
+.needtobring2{
+position: absolute;
+font-size: 20px;
+top: 103%;
+left: 50%;
+right: 8%;
+font-family: Arial;
+color: white;
+}
+
+
+/*Boxing Coach Marlon heading*/
+.ourboxingcoach{
+position: absolute;
+font-size: 40px;
+top: 143%;
+left: 10%;
+font-family: Arial;
+color: black;
+}
+
+
+/*About Coach paragraph*/
+.coach2{
+position: absolute;
+font-size: 20px;
+top: 153%;
+left: 10%;
+right: 55%;
+font-family: Arial;
+color: black;
+}
+
+
+
+
+/*Maralon coach picture at the top*/
+.coachpicc{
+position: absolute;
+width: 30%;
+height: 95%;
+top: 140%;
+left: 60%;
+}
+
+/*Coach Achivements heading*/
+.achivements234{
+position: absolute;
+font-size: 25px;
+top: 209%;
+left: 10%;
+font-family: Arial;
+color: black;
+}
+
+/*Coach Achivement Lists*/
+.achivements23{
+position: absolute;
+font-size: 20px;
+top: 217%;
+left: 8%;
+right: 20%;
+font-family: Arial;
+color: black;
+}
+
+
+/*Timetable of Boxing class heading*/
+.timetable166{
+position: absolute;
+font-size: 40px;
+top: 243%;
+left: 35%;
+right: 0%;
+font-family: Arial;
+color: black;
+}
+
+/*Timetable of Boxing class table */
+.timetable12{
+position: absolute;
+top: 255%;
+font-size: 20px;
+left: 20%;
+right: 0px;
+width: 80%;
+font-family: Arial;
+}
+
+/*Must be included "Academic Project Website paragraph" in the bottom bar */
+.academicwebsiteee{
+position: absolute;
+top: 272%;
+left:25%;
+font-size: 15px;
+color: black;
+font-family: Arial;
+}
+
+/*Subscribe heading in the bottom bar*/
+.subscribee{
+position: absolute;
+top: 272%;
+bottom: 200px;
+left: 16%;
+color: black;
+font-size: 20px;
+
+}
+
+
+/*Contact detail in the bottom bar*/
+.bottomtableee{
+position: absolute;
+top: 277%;
+bottom: 200px;
+left: 75%;
+color: black;
+font-size: 20px;
+ font-family: Arial;
+}
+
+
+
+
+/*Bottom bar*/
+.bottombarrrr{
+overflow: hidden;
+  background-color: #aaaaaa;
+  position: absolute;
+  top: 269%;
+  width: 1425px;
+  left: 0%;
+  height: 150px;
+ border-radius: 0px; 
+}
+
+
+
+
+/*Top Black bar*/
+.topnavbarr{
+overflow: hidden;
+  background-color: black;
+  position: absolute;
+  top: 0%;
+  width: 1425px;
+  left: 0%;
+  height: 890px;
+ border-radius: 0px; 
+}
+
+
+
+
+
+
+/*Wrestling heading at the top*/
+.wrestling{
+position: absolute;
+font-size: 55px;
+top: 20%;
+left: 50%;
+font-family: Arial;
+color: white;
+}
+
+
+
+/* About wrestling paragrapht at the top */
+.aboutwrestling{ 
+position: absolute;
+top: 33%;
+bottom: 200px;
+left: 50%;
+right: 8%;
+color: black;
+font-size: 20px;
+ font-family: Arial;
+color: white;
+}
+
+/* wrestling picture at the top*/
+.wrestlingpic{
+position: absolute;
+width: 40%;
+height: 51%;
+top: 36%;
+left: 5%;
+}
+
+/*What need to bring? heading*/
+.needtobring{
+position: absolute;
+font-size: 30px;
+top: 94%;
+left: 50%;
+font-family: Arial;
+color: white;
+}
+
+/*What need to bring? paragraphs*/
+.needtobring2{
+position: absolute;
+font-size: 20px;
+top: 103%;
+left: 50%;
+right: 2%;
+font-family: Arial;
+color: white;
+}
+
+
+/*Coach Alex heading*/
+.ourcoach{
+position: absolute;
+font-size: 40px;
+top: 140%;
+left: 10%;
+font-family: Arial;
+color: black;
+}
+
+
+
+/*Our coach picture*/
+.coach1{
+position: absolute;
+width: 45%;
+height: 61%;
+top: 150%;
+left: 50%;
+}
+
+
+/*About Coach paragraph*/
+.coach2{
+position: absolute;
+font-size: 20px;
+top: 142%;
+left: 10%;
+right: 55%;
+font-family: Arial;
+color: black;
+}
+
+/*Coach Achivements heading*/
+.achivements{
+position: absolute;
+font-size: 25px;
+top: 178%;
+left: 10%;
+font-family: Arial;
+color: black;
+}
+
+/*Coach Achivement Lists*/
+.achivements2{
+position: absolute;
+font-size: 20px;
+top: 186%;
+left: 8%;
+right: 20%;
+font-family: Arial;
+color: black;
+}
+
+
+/*Timetable of Wrestling class heading*/
+.timetable{
+position: absolute;
+font-size: 40px;
+top: 220%;
+left: 30%;
+font-family: Arial;
+color: black;
+}
+
+/*Timetable of Wrestling class table */
+.timetable1{
+position: absolute;
+top: 234%;
+font-size: 20px;
+left: 17%;
+right: 0px;
+width: 80%;
+font-family: Arial;
+
+}
+
+/*Bottom bar*/
+.bottombarrr{
+overflow: hidden;
+  background-color: #aaaaaa;
+  position: absolute;
+  top: 250%;
+  width: 1425px;
+  left: 0%;
+  height: 150px;
+ border-radius: 0px; 
+}
+/*Must be included "Academic Project Website paragraph" in the bottom bar */
+.academicwebsitee{
+position: absolute;
+top: 252%;
+left:25%;
+font-size: 15px;
+color: black;
+font-family: Arial;
+}
+
+/*Subscribe heading in the bottom bar*/
+.subscribe{
+position: absolute;
+top: 253%;
+bottom: 200px;
+left: 16%;
+color: black;
+font-size: 20px;
+
+}
+
+
+/*Contact detail in the bottom bar*/
+.bottomtablee{
+position: absolute;
+top: 257%;
+bottom: 200px;
+left: 75%;
+color: black;
+font-size: 20px;
+ font-family: Arial;
+}
+
+
+/*Top Black bar*/
+.topnavbarr{
+overflow: hidden;
+  background-color: black;
+  position: absolute;
+  top: 0%;
+  width: 1425px;
+  left: 0%;
+  right: 0%;
+  height: 1040px;
+ border-radius: 0px; 
+}
+
+
+/*MMA picture at the top*/
+.mma1{
+position: absolute;
+width: 43%;
+height: 55%;
+top: 36%;
+left: 5%;
+right: 0%;
+}
+
+/*MMA at our club heading*/
+.boxingattheclub{
+position: absolute;
+font-size: 30px;
+top: 62%;
+left: 50%;
+font-family: Arial;
+color: white;
+}
+
+/*MMA at our club  paragraph*/
+.boxingattheclub2{
+position: absolute;
+font-size: 20px;
+top: 70%;
+left: 50%;
+right: 50px;
+font-family: Arial;
+color: white;
+}
+
+/*What need to bring? heading*/
+.needtobring{
+position: absolute;
+font-size: 30px;
+top: 94%;
+left: 50%;
+font-family: Arial;
+color: white;
+}
+
+/*What need to bring? paragraphs*/
+.needtobring2{
+position: absolute;
+font-size: 20px;
+top: 103%;
+left: 50%;
+right: 8%;
+font-family: Arial;
+color: white;
+}
+
+
+/*MMA Coach Stuart heading*/
+.ourboxingcoach{
+position: absolute;
+font-size: 40px;
+top: 143%;
+left: 10%;
+font-family: Arial;
+color: black;
+}
+
+
+/*About Coach paragraph*/
+.coach2{
+position: absolute;
+font-size: 20px;
+top: 153%;
+left: 10%;
+right: 55%;
+font-family: Arial;
+color: black;
+}
+
+
+
+
+/*Stuart coach picture at the top*/
+.boxing12{
+position: absolute;
+width: 35%;
+height: 75%;
+top: 155%;
+left: 60%;
+}
+
+/*Coach Achivements heading*/
+.achivements234{
+position: absolute;
+font-size: 25px;
+top: 209%;
+left: 10%;
+font-family: Arial;
+color: black;
+}
+
+/*Coach Achivement Lists*/
+.achivements23{
+position: absolute;
+font-size: 20px;
+top: 217%;
+left: 8%;
+right: 20%;
+font-family: Arial;
+color: black;
+}
+
+
+/*Timetable of MMA class heading*/
+.timetable166{
+position: absolute;
+font-size: 40px;
+top: 243%;
+left: 35%;
+right: 0%;
+font-family: Arial;
+color: black;
+}
+
+/*Timetable of MMA class table */
+.timetable12{
+position: absolute;
+top: 255%;
+font-size: 20px;
+left: 15%;
+right: 0px;
+width: 80%;
+font-family: Arial;
+}
+
+/*Must be included "Academic Project Website paragraph" in the bottom bar */
+.academicwebsiteee{
+position: absolute;
+top: 272%;
+left:25%;
+font-size: 15px;
+color: black;
+font-family: Arial;
+}
+
+/*Subscribe heading in the bottom bar*/
+.subscribee{
+position: absolute;
+top: 272%;
+bottom: 200px;
+left: 16%;
+color: black;
+font-size: 20px;
+
+}
+
+
+/*Contact detail in the bottom bar*/
+.bottomtableeee{
+position: absolute;
+top: 277%;
+bottom: 200px;
+left: 75%;
+color: black;
+font-size: 20px;
+ font-family: Arial;
+}
+
+
+
+
+/*Bottom bar*/
+.bottombarrrr{
+overflow: hidden;
+  background-color: #aaaaaa;
+  position: absolute;
+  top: 269%;
+  width: 1425px;
+  left: 0%;
+  height: 150px;
+ border-radius: 0px; 
+}
+
+
